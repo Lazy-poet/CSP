@@ -1,0 +1,112 @@
+.ProductDetails {
+  min-height: 100vh;
+  margin-bottom: 300px;
+}
+
+.ProductDetails .ProductDetailsWrapper {
+  width: 1050px;
+  background-color: #fff;
+  margin: -240px auto;
+  position: relative;
+  z-index: 50;
+  padding: 200px 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ProductDetails .ProductDetailsWrapper > img {
+  height: 550px;
+  margin-right: 50px;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0 0 10px #ddd;
+          box-shadow: 0 0 10px #ddd;
+  border-radius: 25px;
+}
+
+.ProductDetails .ProductDetailsWrapper > div {
+  text-align: left;
+  padding: 20px 0;
+}
+
+.ProductDetails .ProductDetailsWrapper > div h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.ProductDetails .ProductDetailsWrapper > div > span {
+  display: block;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+}
+
+.ProductDetails .ProductDetailsWrapper > div .input {
+  width: 120px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-flow: row nowrap !important;
+          flex-flow: row nowrap !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  border: none;
+}
+
+.ProductDetails .ProductDetailsWrapper > div .input button,
+.ProductDetails .ProductDetailsWrapper > div .input input {
+  border: 1px solid #dee;
+  text-align: center;
+  margin: 0 !important;
+}
+
+.ProductDetails .ProductDetailsWrapper > div .input button:hover, .ProductDetails .ProductDetailsWrapper > div .input button:active, .ProductDetails .ProductDetailsWrapper > div .input button:focus {
+  outline: none !important;
+}
+
+.ProductDetails .ProductDetailsWrapper > div > div {
+  width: 85%;
+}
+
+.ProductDetails .ProductDetailsWrapper > div > div h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 10px 0 0;
+}
+
+.ProductDetails .ProductDetailsWrapper > div > div p {
+  font-size: .9rem;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ProductDetails .ProductDetailsWrapper > div > div > button {
+  outline: none;
+  border: none;
+  width: 200px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 40px;
+  background: #fefefe;
+  font-weight: bold;
+  font-size: .95rem;
+}
+
+.ProductDetails .ProductDetailsWrapper > div > div > button:hover {
+  background: #f2f2ff;
+}
+
+.ProductDetails .ProductDetailsWrapper > div h4 {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.ProductDetails .ProductDetailsWrapper > div .socials img {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=ProductDetails.module.css.map */

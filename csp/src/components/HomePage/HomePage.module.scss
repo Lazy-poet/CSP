@@ -1,0 +1,134 @@
+.HomePage {
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #fff;
+
+    >.Product {
+        height: 300px !important
+    }
+
+    .Carousel1 {
+        position: relative;
+        align-self: center;
+
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .Modal {
+        width: 350px;
+        height: fit-content;
+        background-image: radial-gradient(rgba(255, 255, 255, .7), white);
+        backdrop-filter: blur(20px);
+        padding: 50px;
+        text-align: left;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        box-shadow: 1px -2px 7px rgba(0, 0, 0, .05);
+
+        h1 {
+            font-weight: 800;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        span {
+            font-weight: 300;
+            font-size: 1rem;
+            margin-bottom: 40px;
+            opacity: .5;
+        }
+
+        >button {
+            height: 48px;
+            background-color: #282E52;
+            outline: none;
+            border: none;
+            color: #fff;
+            font-weight: 500;
+            font-size: .9rem;
+        }
+    }
+
+    .Wrapper {
+        padding: 50px auto;
+
+
+        .Products {
+            display: grid;
+            grid-template-columns: 250px 250px;
+            place-content: center;
+            place-items: center;
+            grid-gap: 40px;
+            margin: 30px auto;
+            padding: 25px 50px;
+
+            >* {
+                height: 300px !important
+            }
+        }
+
+        .header {
+            font-weight: 800;
+            margin-top: 50px;
+            letter-spacing: 1px
+        }
+
+        .More {
+            height: 40px;
+            width: 200px;
+            // padding: 0 50px;
+            border: none;
+            outline: none;
+            background-color: #282E52;
+            color: #fff;
+            font-weight: 800;
+            font-size: .9rem;
+
+        }
+    }
+
+    .Carousel2Section {
+        background-color: rgba(189, 189, 193, 0.36);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 75px;
+        // padding: 50px 100px;
+
+        .Carousel2 {
+            width: 55%
+        }
+
+        article {
+            margin: 50px 100px;
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                padding: 10px 0;
+                margin: 10px auto;
+                font-weight: 700;
+                font-size: 2.5rem;
+                letter-spacing: 2px
+            }
+
+            >button {
+                width: 180px;
+                height: 42px;
+                background-color: #282E52;
+                color: #fff;
+                font-weight: 700;
+                outline: none;
+                border: none;
+                font-size: .9rem;
+            }
+        }
+    }
+}

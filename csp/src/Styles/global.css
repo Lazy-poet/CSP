@@ -1,0 +1,150 @@
+.carousel1 .slider-item {
+  position: relative !important;
+  padding: 10px !important;
+  margin: 0 10px !important;
+  vertical-align: text-bottom;
+  width: 100%;
+}
+
+.carousel1 .slider-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.carousel1 .slick-dots {
+  top: 10px !important;
+}
+
+.carousel1 .slick-dots li.slick-active button:before {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid black !important;
+  border-radius: 50% !important;
+}
+
+.carousel2 .slider-item2 {
+  position: relative !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+  padding: 40px 20px;
+  grid-gap: 20px;
+}
+
+.carousel2 .slider-item2 img {
+  width: 100%;
+}
+
+.carousel2 .slick-next {
+  top: 50% !important;
+  -webkit-transform: translateY(-100%) !important;
+          transform: translateY(-100%) !important;
+}
+
+.slick-list {
+  margin: auto !important;
+}
+
+.slick-prev,
+.slick-next {
+  top: 30px !important;
+  height: 50px !important;
+  width: 50px !important;
+  z-index: 400;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px !important;
+  height: 50px !important;
+  width: 50px;
+  visibility: hidden;
+}
+
+.slick-prev img,
+.slick-next img {
+  height: 40px;
+}
+
+.slick-prev {
+  left: calc(100% - 200px) !important;
+  right: 100px !important;
+}
+
+.slick-prev:before {
+  color: #bbbbbb;
+}
+
+.slick-next {
+  right: 100px !important;
+}
+
+.slick-next:before {
+  color: #282e52 !important;
+}
+
+.arrowPrev {
+  margin-top: -40px;
+  margin-right: 20px;
+}
+
+.arrowNextBlue {
+  margin-top: -40px;
+}
+
+.arrowNextWhite {
+  height: 60px !important;
+  position: absolute;
+  right: -90px;
+}
+
+.textOnImg {
+  position: absolute;
+  bottom: 70px;
+  z-index: 50;
+  background: #fff;
+  max-width: calc(100% - 100px);
+  margin: 0 30px;
+  padding: 25px;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.textOnImg h2 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.textOnImg p {
+  font-size: .95rem;
+  font-weight: 400;
+  letter-spacing: 1px !important;
+  line-height: 1.7;
+}
+
+.textOnImg img {
+  height: 25px;
+  max-width: 46px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0 !important;
+}
+/*# sourceMappingURL=global.css.map */

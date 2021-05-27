@@ -1,0 +1,178 @@
+.Wrapper {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+}
+
+.Wrapper .Line {
+  width: calc(100% - 100px);
+  height: 1px;
+  background-color: #d8d8d8;
+  margin: -20px auto 30px;
+}
+
+.Wrapper .Footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 50px;
+  width: 100%;
+  text-align: left;
+  line-height: 2;
+}
+
+.Wrapper .Footer > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #616161;
+  width: 300px;
+}
+
+.Wrapper .Footer > * > * {
+  font-weight: 300;
+}
+
+.Wrapper .Footer > * h2 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #000;
+  letter-spacing: 1.2px;
+}
+
+.Wrapper .Footer .Contact {
+  width: 400px;
+  letter-spacing: 1px;
+}
+
+.Wrapper .Footer .Contact .address,
+.Wrapper .Footer .Contact .mail,
+.Wrapper .Footer .Contact .phone {
+  width: 300px;
+  font-size: .9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  line-height: 1.6;
+}
+
+.Wrapper .Footer .Contact .address img,
+.Wrapper .Footer .Contact .mail img,
+.Wrapper .Footer .Contact .phone img {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.Wrapper .Footer .Products li {
+  list-style: none;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  font-size: .9rem;
+  line-height: 1.8;
+}
+
+.Wrapper .Footer .Socials .icons {
+  margin: 10px 0 35px;
+}
+
+.Wrapper .Footer .Socials .icons img {
+  margin-right: 15px;
+}
+
+.Wrapper .Footer .Socials > form {
+  height: 44px;
+  margin-top: 10px;
+  min-width: 100%;
+}
+
+.Wrapper .Footer .Socials > form > input {
+  border: none;
+  outline: none;
+  background: #f4f5f7;
+  min-height: 100%;
+  width: calc(100% - 44px);
+  padding: 0 10px;
+}
+
+.Wrapper .Footer .Socials > form > input::-webkit-input-placeholder {
+  color: #616168;
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+.Wrapper .Footer .Socials > form > input:-ms-input-placeholder {
+  color: #616168;
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+.Wrapper .Footer .Socials > form > input::-ms-input-placeholder {
+  color: #616168;
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+.Wrapper .Footer .Socials > form > input::placeholder {
+  color: #616168;
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+.Wrapper .Footer .Socials > form > input:active, .Wrapper .Footer .Socials > form > input:focus {
+  border: 2px solid #282e52;
+  border-radius: 5px 0 0 5px;
+}
+
+.Wrapper .Footer .Socials > form > button {
+  height: 100%;
+  width: 44px;
+  outline: none;
+  border: none;
+  background-color: #282E52;
+}
+
+.Wrapper > img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0 0 -50px 50px;
+}
+
+.Wrapper footer {
+  font-weight: 700;
+}
+/*# sourceMappingURL=Footer.module.css.map */

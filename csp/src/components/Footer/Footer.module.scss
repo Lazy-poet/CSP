@@ -1,0 +1,138 @@
+.Wrapper {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+    .Line{
+        width: calc(100% - 100px);
+        height: 1px;
+        background-color: #d8d8d8;
+        margin: -20px auto 30px
+    }
+    .Footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        // display: grid;
+        // grid-template-columns: 2fr 1.5fr 1fr;
+        padding: 50px;
+        width: 100%;
+        text-align: left;
+        line-height: 2;
+        // margin: 0 auto;
+
+        >* {
+            // flex: 1;
+            display: flex;
+            flex-flow: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            color: #616161;
+            width: 300px;
+
+            >* {
+                font-weight: 300;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+                font-weight: 800;
+                color: #000;
+                letter-spacing: 1.2px;
+            }
+
+        }
+
+        .Contact {
+            width: 400px;
+            letter-spacing: 1px;
+
+            .address,
+            .mail,
+            .phone {
+                width: 300px;
+                font-size: .9rem;
+                display: flex;
+                margin: 10px 0;
+                // justify-content: space-between;
+                align-items: flex-start;
+                line-height: 1.6;
+
+                img {
+                    margin-right: 20px;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .Products {
+            li {
+                list-style: none;
+                margin: 10px 0;
+                letter-spacing: 1px;
+                font-size: .9rem;
+                line-height: 1.8;
+            }
+        }
+
+        .Socials {
+            .icons {
+                margin: 10px 0 35px;
+
+                img {
+                    margin-right: 15px
+                }
+            }
+
+            > form {
+                height: 44px;
+                margin-top: 10px;
+                min-width: 100%;
+
+                > input {
+                    border: none;
+                    outline: none;
+                    background: #f4f5f7;
+                    min-height: 100%;
+                    width: calc(100% - 44px);
+                    padding: 0 10px;
+
+                    &::placeholder {
+                        color: #616168;
+                        font-size: .9rem;
+                        font-weight: 300;
+                    }
+                    &:active, &:focus{
+                        border: 2px solid #282e52;
+                        border-radius: 5px 0 0 5px;
+                    }
+
+                }
+
+               > button {
+                    height: 100%;
+                    width: 44px;
+                    outline: none;
+                    border: none;
+                    background-color: #282E52;
+                }
+            }
+
+        }
+
+    }
+
+    >img {
+        align-self: flex-start;
+        margin: 0 0 -50px 50px;
+    }
+    footer{
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,47 @@
+.ProductPage {
+  min-height: 100vh;
+  margin-bottom: 300px;
+}
+
+.ProductPage .ProductsWrapper {
+  width: 1050px;
+  background-color: #fff;
+  margin: -240px auto;
+  position: relative;
+  z-index: 50;
+  padding: 50px;
+}
+
+.ProductPage .ProductsWrapper h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.ProductPage .ProductsWrapper .Products {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: end;
+      align-content: end;
+  -ms-grid-columns: (250px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 250px);
+  grid-gap: 20px 50px;
+  text-align: left;
+}
+
+.ProductPage .ProductsWrapper > button {
+  height: 40px;
+  width: 200px;
+  border: none;
+  outline: none;
+  background-color: #282E52;
+  color: #fff;
+  font-weight: 800;
+  font-size: .9rem;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=ProductPage.module.css.map */
